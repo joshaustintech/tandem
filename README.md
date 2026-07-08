@@ -1,2 +1,14 @@
 # tandem
-Starter and agentic harness for frontend development using Elm and Tailwind CSS with Vite
+
+Elm 0.19.2 starter with Tailwind CSS and Vite.
+
+```sh
+npm install
+npm run dev
+```
+
+Build:
+
+```sh
+npm run build
+```
