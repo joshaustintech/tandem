@@ -1,13 +1,15 @@
 {
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --test"
   },
   "dependencies": {
     "elm": "0.19.2-0",
     "vite": "^7.0.0",
-    "vite-plugin-elm": "^3.0.0",
+    "rs-vite-plugin-elm": "file:../rs-vite-plugin-elm",
     "@tailwindcss/vite": "^4.0.0",
     "tailwindcss": "^4.0.0"
   },
